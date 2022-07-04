@@ -67,5 +67,5 @@ p{
 
 .btn:hover,
 .btn:active{
-  box-shadow: var(--shadow)
+  box-shadow: var(--shadow);
 }
