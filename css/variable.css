@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Sofia');
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
+
+
+
+
 * {
    box-sizing: border-box;
    margin: 0;
@@ -21,7 +25,7 @@
   --helper-tint: #f3f3ff; 
   --gradient : linear-gradient (0deg, rgb(132 144 255)0%, rgb(98 189 252)100%);
   --gradientSupport:-webkit-linear-gradient(0deg, rgb(132 144 255)0%, rgb(98 189 252)100%);
-  --shadow : 10px  20px  20px 0px rgb(242 248 258 10%);
+  --shadow :  10px  20px  20px 0px rgb(242 248 258 10%);
   --shadow1 : 10px 4px 8px 0 rgba(242, 248, 258, 0.2), 10px 6px 20px 0 rgba(248, 248, 259, 0.19);
 }
 
@@ -68,4 +72,47 @@ p{
 .btn:hover,
 .btn:active{
   box-shadow: var(--shadow);
+}
+
+.btn a{
+text-align: center;
+   
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+.container {
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+@media (min-width: 576px) {
+   .container {
+      max-width: 540px;
+   }
+}
+
+@media (min-width: 768px) {
+   .container {
+      max-width: 720px;
+   }
+}
+
+@media (min-width: 992px) {
+   .container {
+      max-width: 960px;
+   }
+}
+
+@media (min-width: 1200px) {
+   .container {
+      max-width: 1140px;
+   }
 }

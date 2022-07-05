@@ -1,10 +1,5 @@
 .section {
-   padding: 7rem 0;
-}
-
-.container {
-   max-width: 1400px;
-   margin: 0 auto;
+   padding: 9rem 0;
 }
 
 .grid {
@@ -24,7 +19,6 @@
    display: flex;
    justify-content: center;
    flex-direction: column;
-   align-items: flex-start;
 }
 
 .top-data {
@@ -37,6 +31,7 @@
 .top-data span {
    font-family: sofia;
    color: red;
+   padding-left: .5rem;
 }
 
 .hero-img {
@@ -46,7 +41,7 @@
 
 .heading {
    text-transform: capitalize;
-   font-size: 4.5rem;
+   font-size: 4rem;
    font-weight: 600;
 }
 
