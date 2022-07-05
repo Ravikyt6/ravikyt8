@@ -12,7 +12,7 @@
 }
 
 .section-hero {
-   background-color: red;
+   background-color: var(--bg);
 }
 
 .section-data {
@@ -36,7 +36,9 @@
 
 .hero-img {
    max-width: 80%;
-   box-shadow: var(--shadow1);
+   box-shadow: 1rem 1rem 0 0 var(--helper);
+   border-start-end-radius: 50px;
+   border-end-start-radius: 50px;
 }
 
 .heading {
@@ -57,4 +59,21 @@
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+
+/*bio data */
+
+
+
+
+.bio-data-img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.bio-img{
+   width: 80%;
+   box-shadow: -1rem -1rem 0 0 var(--helper);
 }
