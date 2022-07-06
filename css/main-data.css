@@ -11,14 +11,14 @@
 .section-hero {
    background-color: var(--bg);
 }
-
+/*
 .section-data {
    display: flex;
    justify-content: center;
    flex-direction: column;
    align-items: flex-start;
 }
-
+*/
 .top-data {
    text-transform: uppercase;
    font-size: 1.9rem;
@@ -53,12 +53,17 @@
 
 }
 
+.section-hero-img{
+   display: flex;
+   align-items: center;
+}
+/*
 .section-hero-img {
    display: flex;
    justify-content: center;
    align-items: center;
 }
-
+*/
 
 /*bio data */
 
