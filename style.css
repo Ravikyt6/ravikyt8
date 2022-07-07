@@ -53,7 +53,9 @@ li{
   list-style: none; 
 }
 
-
+.hero-btncs{
+   margin: 1rem 0;
+}
 .btncs{
   background: var(--gradientSupport);
   padding: .7rem .9rem;
