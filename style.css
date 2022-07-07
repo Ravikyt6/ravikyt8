@@ -15,7 +15,7 @@
   --gradient : linear-gradient (0deg, rgb(132 144 255)0%, rgb(98 189 252)100%);
   --gradientSupport:-webkit-linear-gradient(0deg, rgb(132 144 255)0%, rgb(98 189 252)100%);
   --shadow : 10px ,20px ,20px ,0px rgb(132 128 128 / 10%);
-  
+  --bg2: skyblue;
 }
 
 body{
@@ -146,7 +146,7 @@ li{
 /* first content.  .....*/
 
 .sectioncs{
-  padding: 9rem 0;
+  padding: 3rem 0;
 }
 /*
 .containercs{
@@ -167,7 +167,7 @@ li{
    margin: 0 auto;
 }
 .section-herocs{
-  background: var(--bg);
+  background: var(--bg2);
 }
 /*
 .section-hero-datacs{
@@ -181,19 +181,18 @@ li{
   text-transform: uppercase;
   color: var(--heading);
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: var(--helper);
 }
 
 .hero-headingcs {
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 5rem;
+  font-weight: 600;
+  font-size: 4rem;
 }
-
-.paracs {
+.paracs{
   margin-top: 1.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
   max-width: 60rem;
 }
 
