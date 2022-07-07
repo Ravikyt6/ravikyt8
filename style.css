@@ -207,3 +207,7 @@ li{
   z-index: 1;
 }
 
+.img-fluid{
+   display: flex;
+   margin: 0 auto;
+}
