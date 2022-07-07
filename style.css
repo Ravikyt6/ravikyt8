@@ -147,7 +147,7 @@ li{
 }
 
 .container{
-  max-width: 140em; 
+  max-width: 140rem; 
   margin: 0 auto; 
 }
 
@@ -185,14 +185,14 @@ li{
 
 .heading{
   text-transform: uppercase;
-  font-size: 50px; 
-  font-weight: 100rem;
+  font-size: 5rem; 
+  font-weight: 600;
 }
 
 .para{
   margin-top: 0.5rem;
   margin-bottom: 3rem; 
-  max-width: 500rem;
+  max-width: 50rem;
 }
 
 .section-hero-img{
