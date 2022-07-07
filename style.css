@@ -163,6 +163,9 @@ li{
   grid-template-columns: repeat(2,1fr);
 }
 */
+.container-fluid{
+   margin: 0 auto;
+}
 .section-herocs{
   background: var(--bg);
 }
@@ -193,13 +196,13 @@ li{
   margin-bottom: 4rem;
   max-width: 60rem;
 }
-/*
+
 .section-hero-imagecs {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-*/
+
 .hero-imgcs {
   max-width: 80%;
   z-index: 1;
