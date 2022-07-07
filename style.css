@@ -228,7 +228,7 @@ li{
 }
 
 
-@media (min-width:576px) {
+@media (max-width:576px) {
    .hero-img{
       display: none;
    }
