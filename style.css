@@ -67,6 +67,8 @@ li{
   color: var(--helper-tint);
   display: inline-block;
   text-transform:uppercase;
+  text-decoration: none;
+  list-style: none;
   font-size:1rem;
   font-weight:500;
   cursor:pointer;
@@ -172,12 +174,9 @@ li{
 .container{
    margin: 0 auto;
 }
-.section-herocs{
-  background: var(--bg2);
-}
 
-.section-herocs2{
-   background: darkslategray;
+.section-herocs{
+   background: var(--bg);
 }
 /*
 .section-hero-datacs{
@@ -212,12 +211,25 @@ li{
   align-items: center;
 }
 
-.hero-imgcs {
+.hero-img{
   max-width: 80%;
   z-index: 1;
+}
+
+.hero-img img{
+   border-start-end-radius: 5rem;
+   border-end-start-radius: 5rem;
+   box-shadow: 1px 10px 8px 0 rgba(132, 144, 255, 0.2), 10px 10px 10px 0 rgba(140, 148, 259, 0.3);
 }
 
 .img-fluid{
    display: flex;
    margin: 0 auto;
+}
+
+
+@media (min-width:576px) {
+   .hero-img{
+      display: none;
+   }
 }
