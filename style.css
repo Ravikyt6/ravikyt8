@@ -169,6 +169,10 @@ li{
 .section-herocs{
   background: var(--bg2);
 }
+
+.section-herocs2{
+   background: darkslategray;
+}
 /*
 .section-hero-datacs{
   display: flex;
