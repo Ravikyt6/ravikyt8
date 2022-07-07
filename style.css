@@ -163,7 +163,7 @@ li{
   grid-template-columns: repeat(2,1fr);
 }
 */
-.container-fluid{
+.container{
    margin: 0 auto;
 }
 .section-herocs{
