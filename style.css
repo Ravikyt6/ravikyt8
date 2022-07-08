@@ -239,13 +239,11 @@ li{
    .hero-data, .section-herocs2{
 text-align: center;
    }
-   .featurette-heading {
-      
-      
+   
+}
+
+@media (max-width:359px) {
+   html{
+      font-size: 50%;
    }
-    
-      
-   
-      
-   
 }
