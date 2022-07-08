@@ -228,8 +228,24 @@ li{
 }
 
 
-@media (max-width:576px) {
-   .hero-img{
+@media (max-width:600px) {
+   html{
+      font-size: 55%;
+      
+   }
+   .hero-img,.hero-img2{
       display: none;
    }
+   .hero-data, .section-herocs2{
+text-align: center;
+   }
+   .featurette-heading {
+      
+      
+   }
+    
+      
+   
+      
+   
 }
