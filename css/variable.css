@@ -26,7 +26,7 @@
 }
 
 html {
-   font-size: 63.2%;
+   font-size: 62%;
 }
 
 body {
@@ -67,9 +67,25 @@ li {
    list-style: none;
 }
 
-.hero-btn {
+
+.container {
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+   margin: 0 auto;
+}
+
+
+.btncs {
    margin: 1rem 0;
 }
+
+.paracs{
+   font-size: 1.6rem;
+   margin: 2rem 0;
+   font-weight: 500;
+}
+
+
 
 .btncs {
    background: var(--gradientSupport);
@@ -80,7 +96,7 @@ li {
    text-transform: uppercase;
    text-decoration: none;
    list-style: none;
-   font-size: 1rem;
+   font-size: 1.7rem;
    font-weight: 500;
    cursor: pointer;
    transition: all 0.3s ease;
@@ -124,11 +140,7 @@ li {
    background-color: var(--helper);
 }
 
-
-
-
-
-/*use able code same code */
+/* |||||||\\\\\    header.||||||\\\\\\\\\\\\ */
 
 .headercs {
    padding: 0 2.5rem;
@@ -141,7 +153,7 @@ li {
 }
 
 .headercs .logocs {
-   height: 3rem;
+   height: 5rem;
 }
 
 .navbar-listcs {
@@ -153,7 +165,7 @@ li {
 .navbar-linkcs:visited {
    display: inline-block;
    text-decoration: none;
-   font-size: 1.2rem;
+   font-size: 2.4rem;
    font-weight: 500;
    text-transform: uppercase;
    color: var(--black);
@@ -166,8 +178,7 @@ li {
    color: var(--helper);
 }
 
-.nav-btn{
-   font-size: 20px;
+.nav-btn {
    position: absolute;
    display: none;
    background: transparent;
@@ -175,43 +186,28 @@ li {
    border: none;
 }
 
-.nav-btn .nav-btn-reoder{
+.nav-toggle{
+   width: 4rem;
+   height: 4rem;
+   color: #212529;
+}
+
+.nav-btn .nav-btn-reoder {
    position: absolute;
-   top:-2.5rem;
-   left:-1rem;
-   font-size: 3rem;
+   top: -2.5rem;
+   left: -1rem;
+   font-size: 4rem;
 
 }
-.nav-btn .nav-btn-remove{
-   position: absolute;
-   left:20rem;
-   top:-2.8rem;
-   font-size: 4rem;
-   font-weight: lighter;
-   z-index: 99999;
-   color: var(--heading)
-}
-/* first content.  .....*/
+
+
+/* |||||||\\\\\\\\     content. ||||||||||~\\\\\*/
 
 .sectioncs {
    padding: 3rem 0;
 }
 
-/*
-.containercs{
-  max-width: 140rem; 
-  margin: 0 auto; 
-}
 
-.gridcs{
-  display: grid;
-  gap: 9rem; 
-}
-
-.grid-two-containercs{
-  grid-template-columns: repeat(2,1fr);
-}
-*/
 .container {
    margin: 0 auto;
 }
@@ -220,33 +216,19 @@ li {
    background: var(--bg);
 }
 
-/*
-.section-hero-datacs{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-*/
 .hero-top-datacs {
    text-transform: uppercase;
-   color: var(--heading);
    font-weight: 500;
-   font-size: 1.6rem;
+   font-size: 1.9rem;
    color: var(--helper);
 }
 
 .hero-headingcs {
-   text-transform: uppercase;
+   text-transform: capitalize;
    font-weight: 600;
    font-size: 4rem;
 }
 
-.paracs {
-   margin-top: 1.5rem;
-   margin-bottom: 0;
-   max-width: 60rem;
-}
 
 .section-hero-imagecs {
    display: flex;
@@ -271,10 +253,13 @@ li {
 }
 
 
-@media (max-width:600px) {
-   html {
-      font-size: 53%;
+/* ||||||\\\\\\\ media |||||||||||\\\\\\\ */
 
+@media (max-width:600px) {
+   
+   html{
+
+      font-size: 49.55%;
    }
 
    .hero-img,
@@ -282,42 +267,49 @@ li {
       display: none;
    }
 
-   .sectioncs,
-   .section-herocs2 {
+   .sectioncs {
       text-align: center;
-      padding: 1rem;
+      padding: 0 1rem ;
+      
    }
 
-}
-
-@media (max-width:359px) {
-   html {
-      font-size: 50%;
-   }
 }
 
 @media (max-width:960px) {
+   html{
+      font-size: 52%;
+   }
 
    .headercs .logocs {
-      height: 6rem;
+      width: 39%;
       position: absolute;
-      top: 1.5rem;
+      top: 1.8rem;
       right: 2rem;
    }
 
    .navbarcs {
       height: 100vh;
-      width: 30rem;
-      position: absolute;
+      width: 70%;
+      position: fixed;
       display: block;
-      top: 0;
-      left: 0;
-      z-index: 1;
+      top: 0rem;
+      left: -70%;
+      z-index: 9999;
       overflow-x: hidden;
-      transition: 0.5s ease;
+      transition: 0.5s linear;
       background: var(--gradientSupport2);
 
    }
+   
+   
+.navbarcs .nav-btn-remove {
+  position: absolute;
+  top: 1rem;
+  right: 2.4rem;
+  font-size: 4rem;
+  margin-left: 5rem;
+}
+
 
    .navbar-listcs {
       display: flex;
@@ -328,15 +320,19 @@ li {
    }
 
    .navbar-listcs .navbar-linkcs {
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: 700;
       font-family: andika;
+      display: block;
    }
 
-.navbar-linkcs:hover{
-   color: var(--para-tint)
-}
-.nav-btn{
-   display: block;
-}
+   .navbar-linkcs:hover {
+      color: var(--para-tint)
+   }
+   
+   .nav-btn{
+      display: block;
+   }
+   
+   
 }
