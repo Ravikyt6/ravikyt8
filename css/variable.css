@@ -197,6 +197,7 @@ li {
    top: -2.5rem;
    left: -1rem;
    font-size: 4rem;
+   cursor: pointer;
 
 }
 
@@ -275,6 +276,7 @@ li {
 
 }
 
+
 @media (max-width:960px) {
    html{
       font-size: 52%;
@@ -308,6 +310,7 @@ li {
   right: 2.4rem;
   font-size: 4rem;
   margin-left: 5rem;
+  cursor: pointer;
 }
 
 
